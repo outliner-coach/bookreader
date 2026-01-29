@@ -1,0 +1,32 @@
+.DS_Store
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Python virtual environments
+venv/
+venv*/
+.venv/
+
+# Node/Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+mobile_old/
+
+# OS
+Thumbs.db
+
+# Tooling
+.claude/
